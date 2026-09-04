@@ -1,4 +1,5 @@
 package src.profesiones;
+import src.personas.*;
 
 public class Cajero extends Persona {
     private int cantidadTransacciones;

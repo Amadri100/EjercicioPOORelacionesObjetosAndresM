@@ -1,5 +1,6 @@
+package src.profesiones;
 import java.util.ArrayList;
-package profesiones;
+import src.personas.*;
 
 public class AdministradorDeEdificio extends Persona{
     private ArrayList<Cajero> cajerosEnEdificio;

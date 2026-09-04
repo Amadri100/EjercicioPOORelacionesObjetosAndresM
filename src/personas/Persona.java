@@ -1,8 +1,10 @@
 package src.personas;
+import src.poderes.*;
 
 public class Persona {
     private byte edad;  
     protected String nombre;
+    private IPower power;
     //private enum status = {CAMINANDO(0), DURMIENDO, TRABAJNADO, CANTANDO };
 
 
@@ -38,6 +40,19 @@ public class Persona {
 
     public void setEdad(byte pEdad) {
         this.edad = pEdad;
+    }
+
+    public void setPower(IPower pPower) {
+        this.power = pPower;
+
+    }
+
+    public IPower getPoder() {
+        return this.power;
+    }
+
+    public void usarPoder() {
+        this.power.dispararPoder();
     }
 
 

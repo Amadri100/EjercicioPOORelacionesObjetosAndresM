@@ -1,4 +1,6 @@
 package src.profesiones;
+import src.personas.*;
+
 public class Medico extends Persona{
 
     private final double PRECIO = 100; 
