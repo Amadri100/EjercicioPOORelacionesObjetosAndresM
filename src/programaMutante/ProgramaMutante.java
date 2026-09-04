@@ -33,6 +33,6 @@ public class ProgramaMutante {
             System.out.println("Usa Poderes "+p.getNombre());
             p.usarPoder();
         }
-
-    }
+ 
+    } 
 }
