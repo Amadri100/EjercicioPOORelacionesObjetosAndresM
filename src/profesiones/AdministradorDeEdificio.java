@@ -1,6 +1,6 @@
-package src.profesiones;
+package profesiones;
 import java.util.ArrayList;
-import src.personas.*;
+import personas.*;
 
 public class AdministradorDeEdificio extends Persona{
     private ArrayList<Cajero> cajerosEnEdificio;
@@ -8,6 +8,8 @@ public class AdministradorDeEdificio extends Persona{
 
     public AdministradorDeEdificio(String pNombre,  int pEdad) {
         super(pNombre, (byte)pEdad);
+        cajerosEnEdificio = new ArrayList<>();
+        medicosEnEdificio = new ArrayList<>();
     }
 
     public void contratarCajero(Cajero cajero) {
@@ -37,6 +39,4 @@ public class AdministradorDeEdificio extends Persona{
     public ArrayList<Medico> getCopiaMedicos() {
         return new ArrayList<>(medicosEnEdificio);
     }
-
-
 }

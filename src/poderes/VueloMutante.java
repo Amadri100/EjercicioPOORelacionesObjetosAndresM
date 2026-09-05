@@ -1,4 +1,4 @@
-package src.poderes;
+package poderes;
 
 public class VueloMutante implements IPower{
    

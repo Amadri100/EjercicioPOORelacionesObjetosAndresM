@@ -1,5 +1,5 @@
-package src.profesiones;
-import src.personas.*;
+package profesiones;
+import personas.*;
 
 public class Medico extends Persona{
 
@@ -31,6 +31,7 @@ public class Medico extends Persona{
         System.out.println("Observación...");
         System.out.println("Analisis...");
         System.out.println("Diagnostico...");
+        System.out.println("Comendo Doritos...");
     }
 
 

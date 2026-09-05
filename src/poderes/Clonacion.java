@@ -1,4 +1,4 @@
-package src.poderes;
+package poderes;
 
 public class Clonacion implements IPower {
     public Clonacion() {

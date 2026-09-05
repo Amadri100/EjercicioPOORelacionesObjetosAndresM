@@ -1,4 +1,4 @@
-package src.poderes;
+package poderes;
 
 public class TirarTriangulos implements IPower{
     public TirarTriangulos() {

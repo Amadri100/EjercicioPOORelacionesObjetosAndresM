@@ -1,4 +1,4 @@
-package src.poderes;
+package poderes;
 
 public class TirarBombas implements IPower{
     public TirarBombas() {

@@ -1,5 +1,5 @@
-package src.personas;
-import src.poderes.*;
+package personas;
+import poderes.*;
 
 public class Persona {
     private byte edad;  
