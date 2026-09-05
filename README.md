@@ -1,3 +1,4 @@
+Autor: Andrés Madrigal
 # Explicación del programa
 ## Paquetes 
 ## personas
